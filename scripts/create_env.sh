@@ -11,7 +11,7 @@ fi
 
 if [ ! -f "ComfyUI/models/checkpoints/sdxl_base.safetensors" ]; then
     echo "Downloading SDXL Base model..."
-    wget -O ComfyUI/models/stable_diffusion/sdxl_base.safetensors "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+    wget -O ComfyUI/models/checkpoints/sdxl_base.safetensors "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 else
     echo "SDXL Base model already exists, skipping download..."
 fi
