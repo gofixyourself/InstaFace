@@ -38,6 +38,9 @@
 ## Запуск проекта
 1. Установим необходимые зависимости
 ```bash
+git clone https://github.com/gofixyourself/InstaFace.git 
+cd InstaFace
+
 python -m venv insta_face
 source insta_face/bin/activate
 pip install --upgrade pip
