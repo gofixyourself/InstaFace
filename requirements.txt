@@ -17,4 +17,3 @@ kornia
 spandrel
 insightface==0.7.3
 onnxruntime
-onnxruntime-gpu
