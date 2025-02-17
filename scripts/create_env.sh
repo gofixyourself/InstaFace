@@ -21,7 +21,7 @@ if [ ! -d "ComfyUI/custom_nodes/ComfyUI-Manager" ]; then
 fi
 
 if [ ! -d "ComfyUI/custom_nodes/ComfyUI-InstantID-FaceSwap" ]; then
-    unzip ComfyUI-InstantID-FaceSwap.zip -d ComfyUI/custom_nodes
+    git clone https://github.com/gofixyourself/comfyui-instantId-faceswap.git ComfyUI/custom_nodes/ComfyUI-InstantID-FaceSwap
 fi
 
 mkdir -p ComfyUI/models/insightface/models/antelopev2
